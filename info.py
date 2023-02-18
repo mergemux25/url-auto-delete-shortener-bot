@@ -82,10 +82,10 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://telegram.me/How_To_Download_1/13"
+DOWNLOAD_TEXT_URL = "https://telegram.me/How_To_Download_1/"
 
    # Custom Caption Under Button #
-CAPTION_BUTTON = "Rushidhar Moviez"
-CAPTION_BUTTON_URL = "https://telegram.me/RushidharMoviez"
+CAPTION_BUTTON = "❤️‍🔥 Join & Support ❤️‍🔥"
+CAPTION_BUTTON_URL = "https://telegram.me/USE_FULL_BOTZ"
 
    # Auto Delete For Bot Sending Files #
