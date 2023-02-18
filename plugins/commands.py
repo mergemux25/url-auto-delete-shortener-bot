@@ -243,7 +243,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('Rushidhar Moviez', url='https://telegram.me/RushidharMoviez') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('❤️‍🔥 Join & Support ❤️‍🔥', url='https://telegram.me/USE_FULL_BOTZ') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
     await asyncio.sleep(300)
