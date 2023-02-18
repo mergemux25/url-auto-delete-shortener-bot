@@ -433,7 +433,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://telegram.me/Use_Full_Bots')
+            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://telegram.me/Use_Full_Botz')
         ], [
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
