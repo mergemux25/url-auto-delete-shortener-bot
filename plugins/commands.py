@@ -43,9 +43,6 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://telegram.me/Use_Full_Botz')
             ],[
-            InlineKeyboardButton('⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/RequestMoviez1999'),
-            InlineKeyboardButton('⚚ 𝙈𝙖𝙞𝙣 𝙂𝙧𝙤𝙪𝙥 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/RushidharMoviez')
-            ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
         ]]
@@ -88,9 +85,6 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
             InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://telegram.me/Use_Full_Botz')
-            ],[
-            InlineKeyboardButton('⚚ 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/RequestMoviez1999'),
-            InlineKeyboardButton('⚚ 𝙈𝙖𝙞𝙣 𝙂𝙧𝙤𝙪𝙥 𝙃𝙚𝙧𝙚 ⚚', url='https://telegram.me/RushidharMoviez')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
